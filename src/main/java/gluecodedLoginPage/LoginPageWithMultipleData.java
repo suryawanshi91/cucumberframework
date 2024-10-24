@@ -40,6 +40,7 @@ public class LoginPageWithMultipleData {
 	public void user_enters_standard_user_and_secret_sauce(String un , String pwd) {
 		 driver.findElement(By.id("user-name")).sendKeys(un);
 		 driver.findElement(By.id("password")).sendKeys(pwd);
+		 System.out.println("I m ApurvaS");
 	}
 
 	@And("User clicks on login button")
